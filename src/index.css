@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Alexandria', 'Cairo', sans-serif;
+    --font-heading: 'Cairo', 'Alexandria', sans-serif;
+    --font-body: 'Tajawal', sans-serif;
+    
+    /* Palette Tokens */
+    --color-aubergine-dark: #0F0611;
+    --color-aubergine: #1A0B1A;
+    --color-aubergine-light: #2A132B;
+    --color-onyx: #0B080C;
+    --color-sand: #D6C2A5;
+    --color-sand-muted: #C7B08B;
+    --color-rose: #D4A89C;
+    --color-rose-muted: #B88B82;
+    --color-ivory: #FAF7F2;
+    --color-saffron: #E67E22;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-body);
+  }
+
+  body {
+    background-color: var(--color-onyx);
+    color: var(--color-ivory);
+    font-family: var(--font-body);
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Typography Helpers */
+.font-display {
+  font-family: 'Alexandria', 'Cairo', sans-serif;
+}
+
+.font-heading {
+  font-family: 'Cairo', 'Alexandria', sans-serif;
+}
+
+.font-body {
+  font-family: 'Tajawal', sans-serif;
+}
+
+/* Luxury Grain & Ambient Glows */
+.bg-grain {
+  background-image: radial-gradient(rgba(214, 194, 165, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.bg-aubergine-gradient {
+  background: radial-gradient(circle at 50% 20%, #2A132B 0%, #1A0B1A 45%, #0B080C 100%);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FAF7F2 0%, #D6C2A5 50%, #C7B08B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-rose-gradient {
+  background: linear-gradient(135deg, #FAF7F2 0%, #D4A89C 60%, #B88B82 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar for Luxury Experience */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B080C;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A132B;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D6C2A5;
+}
+
+/* Custom Horizontal Scroll Bar hiding */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Subtle pulse keyframe for candles/lights */
+@keyframes ambient-glow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+}
+
+.animate-glow {
+  animation: ambient-glow 8s ease-in-out infinite;
+}
