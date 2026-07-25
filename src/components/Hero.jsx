@@ -79,7 +79,7 @@ export default function Hero({ openInquiry, setActivePage }) {
 
           <button
             onClick={() => {
-              setActivePage('portfolio');
+              setActivePage('celebrations');
               window.scrollTo({ top: window.innerHeight * 0.8, behavior: 'smooth' });
             }}
             className="w-full sm:w-auto px-8 py-4 rounded-full bg-[#1A0B1A]/80 backdrop-blur-md border border-[#D6C2A5]/30 text-[#FAF7F2] hover:text-[#D6C2A5] hover:border-[#D6C2A5] font-heading font-bold text-base transition-all duration-300 flex items-center justify-center gap-2"

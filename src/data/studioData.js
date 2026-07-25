@@ -31,7 +31,6 @@ export const NAVIGATION_LINKS = [
   { id: "home", label: "الرئيسية" },
   { id: "studio", label: "الاستوديو" },
   { id: "celebrations", label: "المناسبات" },
-  { id: "portfolio", label: "الأعمال" },
   { id: "destinations", label: "الوجهات" },
   { id: "services", label: "الخدمات" },
   { id: "journal", label: "المجلة" },

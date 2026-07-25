@@ -4,7 +4,6 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import StudioStory from './components/StudioStory';
 import CelebrationsSection from './components/CelebrationsSection';
-import PortfolioSection from './components/PortfolioSection';
 import DestinationsSection from './components/DestinationsSection';
 import ServicesSection from './components/ServicesSection';
 import JournalSection from './components/JournalSection';
@@ -40,7 +39,6 @@ export default function App() {
             <Hero openInquiry={openInquiry} setActivePage={setActivePage} />
             <StudioStory openInquiry={openInquiry} />
             <CelebrationsSection openInquiry={openInquiry} />
-            <PortfolioSection openInquiry={openInquiry} />
             <DestinationsSection openInquiry={openInquiry} />
             <ServicesSection openInquiry={openInquiry} />
             <JournalSection />
@@ -57,12 +55,6 @@ export default function App() {
         {activePage === 'celebrations' && (
           <div className="pt-20 animate-fade-in">
             <CelebrationsSection openInquiry={openInquiry} />
-          </div>
-        )}
-
-        {activePage === 'portfolio' && (
-          <div className="pt-20 animate-fade-in">
-            <PortfolioSection openInquiry={openInquiry} />
           </div>
         )}
 
