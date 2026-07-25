@@ -46,7 +46,7 @@ export const HERO_SLIDES = [
     location: "العُلا — المملكة العربية السعودية",
     projectRef: "ليلة بين الصخور",
     bgGradient: "from-[#1A0B1A] via-[#2A132B] to-[#0B080C]",
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=2000&auto=format&fit=crop"
   },
   {
     id: 2,
@@ -55,7 +55,7 @@ export const HERO_SLIDES = [
     location: "الرياض — حي السفارات",
     projectRef: "مَدى",
     bgGradient: "from-[#0F0611] via-[#1A0B1A] to-[#0B080C]",
-    image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=2000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1545232979-fbfd42e000b9?q=80&w=2000&auto=format&fit=crop"
   },
   {
     id: 3,
@@ -146,7 +146,7 @@ export const CELEBRATION_CATEGORIES = [
     subtitle: "رحلات احتفالية ممتدة لأيام بين العلا، البحر الأحمر، والوجهات العالمية.",
     description: "صناعة تجربة سفر متكاملة للضيوف تشمل الاستقبال الخاص، والإقامة في منتجعات فاخرة، وحفلات العشاء التمهيدية تحت النجوم وصولاً إلى ليلة الزفاف الرئيسية.",
     features: ["لوجستيات الطيران والإقامة", "برامج ضيافة ممتدة لـ ٣ أيام", "تصاميم متناغمة مع بيئة الوجهة", "فريق رحلات مخصص للضيوف"],
-    image: "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?q=80&w=1200&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=1200&auto=format&fit=crop"
   },
   {
     id: "intimate-gatherings",
@@ -155,7 +155,7 @@ export const CELEBRATION_CATEGORIES = [
     subtitle: "حفلات عائلية مصغّرة في قصور خاصة وفلل تاريخية بعيداً عن صخب القاعات.",
     description: "التركيز على الجودة الاستثنائية للتفاصيل الدقيقة: مائدة طعام مصممة خصيصاً، أدوات مذهبة يدوياً، وموسيقى حية تتناغم مع ضوء الشموع الخافت.",
     features: ["عشاء فاخر بإشراف طهاة عالميين", "هوية بصرية مخصصة للمناسبة", "تنسيقات زهرية نادرة", "أجواء دافئة وحميمية"],
-    image: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=1200&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1200&auto=format&fit=crop"
   },
   {
     id: "brand-experiences",
@@ -164,7 +164,7 @@ export const CELEBRATION_CATEGORIES = [
     subtitle: "عروض دور الأزياء، إطلاق العطور، وحفلات العشاء الحصرية للماركات العالمية.",
     description: "ترجمة هوية العلامة التجارية الفاخرة إلى تجربة مكانية سينمائية تستقطب النخبة وصنّاع القرار، بلمسة سعودية أصيلة ومعاصرة.",
     features: ["سينوغرافيا متوافقة مع العلامة", "تغطية إعلامية وتوثيق سينمائي", "إدارة حضور كبار الشخصيات", "حلول تكنولوجية تفاعلية"],
-    image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1200&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=1200&auto=format&fit=crop"
   }
 ];
 
@@ -180,12 +180,12 @@ export const PORTFOLIO_PROJECTS = [
     guests: "٢٥٠ ضيفاً",
     season: "الشتاء",
     style: "صحراوي نحتي معاصر",
-    coverImage: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1600&auto=format&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=1600&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?q=80&w=1600&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=1600&auto=format&fit=crop"
     ],
     conceptStory: "بين التكوينات الصخرية المذهلة في العُلا، أقمنا مسرحاً احتفالياً من ألياف الرمل والزجاج المعتم، حيث امتدت الطاولات الطويلة المنحوتة كأنها امتداد للطبيعة. عُزفت مقطوعات الأوركسترا الشرقي المحدث تحت سماء صافية مرصعة بالنجوم، ودُمجت إضاءة الليزر الخافتة مع أكثر من ٣٠٠٠ شمعة طبيعية.",
     designNotes: [
@@ -210,8 +210,8 @@ export const PORTFOLIO_PROJECTS = [
     coverImage: "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?q=80&w=1600&auto=format&fit=crop",
     gallery: [
       "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1600&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1478146896981-b80fe463b330?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=1600&auto=format&fit=crop"
     ],
     conceptStory: "بُنيت قاعة شفافة بالكامل على حافة مياه البحر الأحمر، ليتحول الأفق المائي عند غروب الشمس إلى الستار الخلفي للمناسبة. استُخدمت ملايين كريستالات السواروفسكي العاكسة للضوء لتمثيل انكسار الموج، مع تنسيق نادِر لزهور الأوركيد البيضاء والفاوانيا.",
     designNotes: [
@@ -233,11 +233,11 @@ export const PORTFOLIO_PROJECTS = [
     guests: "٧٠٠ ضيفاً",
     season: "الخريف",
     style: "معماري فاخر وشامخ",
-    coverImage: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1600&auto=format&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1545232979-fbfd42e000b9?q=80&w=1600&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1600&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1545232979-fbfd42e000b9?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1522413452208-996ff3f3e740?q=80&w=1600&auto=format&fit=crop"
     ],
     conceptStory: "مشروع يعيد تعريف الزفاف الملكي في الرياض من خلال ممر زفاف منحني بطول ٤٠ متراً من الرخام الأسود المصقول، تحيط به غابة معلقة من النباتات الصحراوية والزهور الحمراء القاتمة. خلق التضاد بين الأسود الحلك واللون الباذنجاني الدافئ حالة من الفخامة البصرية غير المسبوقة.",
     designNotes: [
@@ -259,10 +259,10 @@ export const PORTFOLIO_PROJECTS = [
     guests: "١٢٠ ضيفاً",
     season: "الربيع",
     style: "نجدي تراثي روحاني معاصر",
-    coverImage: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=1600&auto=format&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1600&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?q=80&w=1600&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1600&auto=format&fit=crop"
     ],
     conceptStory: "بين أشجار النخيل المعمرة وأسوار الطين الدافئة في الدرعية، صُممت جلسة عشاء حميمية تحت مظلة من الفوانيس النحاسية المخرمة. امتزجت رائحة زهر البرتقال مع أنغام العود العربي الدافئ لتأخذ الضيوف في رحلة عاطفية صادقة.",
     designNotes: [
@@ -282,7 +282,7 @@ export const DESTINATIONS = [
     region: "المنطقة الشمالية الغربية",
     description: "مسرح طبيعي من السحر والغموض والصخور المنحوتة عبر آلاف السنين. المكان الأمثل للأعراس الأسطورية التي تبحث عن أبعاد استثنائية.",
     highlights: ["صحراء الحِجر ومغارات عويرض", "طقس شتوي ساحر ومثالي", "منتجعات فاخرة مثل أمانربا وبانيان تري"],
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: "diriyah",
@@ -290,7 +290,7 @@ export const DESTINATIONS = [
     region: "منطقة الرياض",
     description: "مهد العز والأصالة المعمارية النجدية. تمتزج جدران الطين الدافئة مع أحدث تقنيات التصميم السينمائي لخلق مناسبات ذات بعد تاريخي مجيد.",
     highlights: ["حي الطريف المسجل في اليونسكو", "بساتين وادي حنيفة الخضراء", "قربها من أرقى أحياء العاصمة"],
-    image: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: "red-sea",
@@ -306,7 +306,7 @@ export const DESTINATIONS = [
     region: "الرياض",
     description: "قلاع وقصور ضخمة، صالات كبرى، وهندسة مكانية تتسع للخيال الأكثر جرأة في عالم الأعراس والمناسبات الملكية.",
     highlights: ["فنادق وقصور عالمية المستوى", "بنية تحتية لوجستية متكاملة", "سهولة وصول الضيوف الدوليين"],
-    image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1545232979-fbfd42e000b9?q=80&w=1000&auto=format&fit=crop"
   }
 ];
 
@@ -377,7 +377,7 @@ export const JOURNAL_ARTICLES = [
     readTime: "٥ دقائق قراءة",
     date: "١٥ يناير ٢٠٢٦",
     excerpt: "في أعراس الوجهات الاستثنائية، ليس الموقع مجرد خلفية لالتقاط الصور، بل هو عنصر حي يتفاعل مع ضوء الغروب وأصداء الموسيقى.",
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=1200&auto=format&fit=crop",
     content: `
       عندما ندخل موقعاً جديداً — سواء كان وادياً صخرياً في العلا أو قصراً تاريخياً في الدرعية — لا نفكر فوراً في مكان وضع الطاولات أو الكوشة. التفكير الأولي يكون دائماً في إصغاء المكان: كيف تتحرك الرياح هنا؟ أين تسقط آخر شعاع لشمس الغروب؟ وكيف يتجاوب الصدى مع الصوت؟
 
@@ -398,7 +398,7 @@ export const JOURNAL_ARTICLES = [
     readTime: "٤ دقائق قراءة",
     date: "٠٢ ديسمبر ٢٠٢٥",
     excerpt: "الفرق بين المناسبة العادية والحدث التاريخي يكمن في تلك اللفتات غير المتوقعة التي تلامس مشاعر الضيوف بعمق.",
-    image: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=1200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1200&auto=format&fit=crop",
     content: `
       في عالم الفخامة الحقيقية، لا تتباهى الأشياء بنفسها بصوتٍ عالٍ. الفخامة الحديثة هادئة، واثقة، ومترعة بالتفاصيل الذكية.
 
@@ -417,7 +417,7 @@ export const JOURNAL_ARTICLES = [
     readTime: "٦ دقائق قراءة",
     date: "١٨ نوفمبر ٢٠٢٥",
     excerpt: "كيف نستخدم درجات ضوء الشموع والإنارة الأرضية المخفية لإحياء الليالي الصحراوية دون المساس بسحر السماء الليلية.",
-    image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=1200&auto=format&fit=crop",
     content: `
       الصحراء السعودية هي واحدة من أجمل المسارح الطبيعية على وجه الأرض، لكن التحدي الأكبر في التصميم الميداني هو الضوء. الإضاءة الزائدة تقتل سحر السماء الليلية، والإضاءة الشديدة الانخفاض تسبب عدم الراحة.
 

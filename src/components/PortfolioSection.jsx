@@ -23,7 +23,7 @@ export default function PortfolioSection({ openInquiry }) {
           </span>
 
           <h2 className="font-display text-4xl lg:text-6xl font-black text-[#FAF7F2] leading-tight mb-6">
-            سجل الأعمال الشاهقة
+            روائع الأعراس والمناسبات الاستثنائية
           </h2>
 
           <p className="font-body text-[#FAF7F2]/70 text-lg">
