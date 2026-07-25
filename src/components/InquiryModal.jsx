@@ -291,9 +291,8 @@ export default function InquiryModal({ isOpen, onClose }) {
 
             <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href={`https://wa.me/966500009988?text=${whatsappMessage}`}
-                target="_blank"
-                rel="noreferrer"
+                href="#"
+                onClick={(e) => e.preventDefault()}
                 className="w-full sm:w-auto px-6 py-3 rounded-full bg-[#25D366] text-[#0B080C] font-heading font-bold text-sm flex items-center justify-center gap-2 shadow-xl hover:scale-105 transition-all"
               >
                 <MessageSquare size={16} />

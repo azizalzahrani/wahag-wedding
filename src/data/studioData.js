@@ -12,16 +12,16 @@ export const STUDIO_INFO = {
       city: "الرياض",
       district: "حي السفارات — المربع الإبداعي",
       address: "طريق الدائري الغربي، فيلا 42",
-      phone: "+966 11 480 9988",
-      whatsapp: "966500009988",
+      phone: "+966 11 000 0000",
+      whatsapp: "966500000000",
       email: "concierge@wahajstudio.sa"
     },
     {
       city: "جدة",
       district: "حي الشاطئ — واجهة البحر",
       address: "برج الكورنيش، الأبرج السكنية 12",
-      phone: "+966 12 690 4455",
-      whatsapp: "966500009988",
+      phone: "+966 12 000 0000",
+      whatsapp: "966500000000",
       email: "jeddah@wahajstudio.sa"
     }
   ]

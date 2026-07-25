@@ -87,9 +87,8 @@ export default function ContactSection({ openInquiry }) {
           </div>
 
           <a
-            href="https://wa.me/966500009988"
-            target="_blank"
-            rel="noreferrer"
+            href="#"
+            onClick={(e) => e.preventDefault()}
             className="whitespace-nowrap px-6 py-3 rounded-full bg-[#25D366] text-[#0B080C] font-heading font-bold text-sm flex items-center gap-2 shadow-xl hover:scale-105 transition-all"
           >
             <MessageSquare size={16} />

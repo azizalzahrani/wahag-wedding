@@ -114,7 +114,7 @@ export default function Footer({ setActivePage, openInquiry, openLegal }) {
             <ul className="space-y-3 font-body text-xs text-[#FAF7F2]/70">
               <li className="flex items-center gap-2 justify-start">
                 <Phone size={14} className="text-[#E67E22]" />
-                <span dir="ltr">+966 11 480 9988</span>
+                <span dir="ltr">+966 11 000 0000</span>
               </li>
               <li className="flex items-center gap-2 justify-start">
                 <Mail size={14} className="text-[#E67E22]" />
@@ -122,9 +122,8 @@ export default function Footer({ setActivePage, openInquiry, openLegal }) {
               </li>
               <li className="pt-2">
                 <a
-                  href="https://wa.me/966500009988"
-                  target="_blank"
-                  rel="noreferrer"
+                  href="#"
+                  onClick={(e) => e.preventDefault()}
                   className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#1A0B1A] border border-[#2A132B] text-[#D6C2A5] hover:border-[#D6C2A5] transition-colors"
                 >
                   <span>محادثة الواتساب الفورية</span>
@@ -170,7 +169,7 @@ export default function Footer({ setActivePage, openInquiry, openLegal }) {
         </div>
 
         {/* Bottom Legal & Copyright Bar */}
-        <div className="pt-8 border-t border-[#2A132B]/60 flex flex-col md:flex-row items-center justify-between gap-4 font-body text-xs text-[#FAF7F2]/50">
+        <div className="pt-8 border-t border-[#2A132B]/60 flex flex-col lg:flex-row items-center justify-between gap-4 font-body text-xs text-[#FAF7F2]/50">
           <div className="flex flex-wrap items-center gap-6">
             <button onClick={() => openLegal('privacy')} className="hover:text-[#D6C2A5] transition-colors">
               سياسة الخصوصية
@@ -183,8 +182,28 @@ export default function Footer({ setActivePage, openInquiry, openLegal }) {
             </button>
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-right">
             <span>© {new Date().getFullYear()} استوديو «وَهَج» لتصميم التجارب والأعراس الفاخرة. جميع الحقوق محفوظة.</span>
+            <span className="hidden sm:inline text-[#2A132B]">|</span>
+            <span className="text-[#D6C2A5]/90 font-medium">
+              Designed by{' '}
+              <a
+                href="https://www.azion-labs.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-[#D6C2A5] hover:underline"
+              >
+                AZION Labs
+              </a>{' '}
+              (<a
+                href="https://www.azion-labs.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline text-[#D6C2A5]"
+              >
+                www.azion-labs.com
+              </a>)
+            </span>
             <button
               onClick={scrollToTop}
               title="العودة لأعلى الصفحة"
