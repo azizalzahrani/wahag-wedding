@@ -15,21 +15,7 @@ export default function PortfolioSection({ openInquiry }) {
     <section className="py-24 bg-gradient-to-b from-[#0B080C] via-[#1A0B1A]/40 to-[#0B080C] text-[#FAF7F2] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         
-        {/* Header */}
-        <div className="max-w-3xl mx-auto text-center mb-16">
-          <span className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#1A0B1A] border border-[#D6C2A5]/30 text-[#D6C2A5] text-xs font-body mb-4">
-            <Sparkles size={14} className="text-[#E67E22]" />
-            <span>معرض المشاريع والقصص</span>
-          </span>
 
-          <h2 className="font-display text-4xl lg:text-6xl font-black text-[#FAF7F2] leading-tight mb-6">
-            روائع الأعراس والمناسبات الاستثنائية
-          </h2>
-
-          <p className="font-body text-[#FAF7F2]/70 text-lg">
-            تصفّح نماذج سينمائية لمشاريعنا المنفذة بين العلا، الرياض، جدة، والدرعية، حيث تجسّدت الرؤية إلى واقعٍ مبهر.
-          </p>
-        </div>
 
         {/* Filters */}
         <div className="flex items-center justify-center flex-wrap gap-3 mb-16">
