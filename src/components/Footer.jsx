@@ -118,7 +118,7 @@ export default function Footer({ setActivePage, openInquiry, openLegal }) {
               </li>
               <li className="flex items-center gap-2 justify-start">
                 <Mail size={14} className="text-[#E67E22]" />
-                <span>concierge@redacted.sa</span>
+                <span>concierge@xxxxxxxx.sa</span>
               </li>
               <li className="pt-2">
                 <a
