@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { PORTFOLIO_PROJECTS } from '../data/studioData';
-import { Sparkles, MapPin, Calendar, Users, Eye, X, ArrowLeft } from 'lucide-react';
+import { Sparkles, MapPin, Users, Eye, X, ArrowLeft } from 'lucide-react';
 
 export default function PortfolioSection({ openInquiry }) {
   const [filter, setFilter] = useState('all');
