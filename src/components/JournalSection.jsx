@@ -51,7 +51,7 @@ export default function JournalSection() {
                   <img
                     src={article.image}
                     alt={article.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-80 group-hover:opacity-100"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-95 group-hover:opacity-100"
                   />
                   <span className="absolute top-4 right-4 px-3 py-1 rounded-full bg-[#0B080C]/80 backdrop-blur-md text-[#D6C2A5] font-body text-xs">
                     {article.category}

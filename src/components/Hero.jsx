@@ -28,7 +28,7 @@ export default function Hero({ openInquiry, setActivePage }) {
           <img
             src={item.image}
             alt={item.title}
-            className="w-full h-full object-cover scale-105 animate-pulse transition-transform duration-10000 opacity-35"
+            className="w-full h-full object-cover scale-105 transition-transform duration-10000 opacity-60 brightness-105"
           />
           {/* Layered Color Gradients */}
           <div className="absolute inset-0 bg-gradient-to-t from-[#0B080C] via-[#1A0B1A]/80 to-[#0B080C]/60" />

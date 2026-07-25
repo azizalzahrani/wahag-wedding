@@ -46,7 +46,7 @@ export const HERO_SLIDES = [
     location: "العُلا — المملكة العربية السعودية",
     projectRef: "ليلة بين الصخور",
     bgGradient: "from-[#1A0B1A] via-[#2A132B] to-[#0B080C]",
-    image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=2000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1541971875076-8f970d573be6?q=80&w=2000&auto=format&fit=crop"
   },
   {
     id: 2,
@@ -55,7 +55,7 @@ export const HERO_SLIDES = [
     location: "الرياض — حي السفارات",
     projectRef: "مَدى",
     bgGradient: "from-[#0F0611] via-[#1A0B1A] to-[#0B080C]",
-    image: "https://images.unsplash.com/photo-1545232979-fbfd42e000b9?q=80&w=2000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2000&auto=format&fit=crop"
   },
   {
     id: 3,
@@ -64,7 +64,7 @@ export const HERO_SLIDES = [
     location: "جدة — الكورنيش الشمالي",
     projectRef: "ضوء البحر",
     bgGradient: "from-[#1F0D24] via-[#1A0B1A] to-[#0B080C]",
-    image: "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?q=80&w=2000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=2000&auto=format&fit=crop"
   }
 ];
 
@@ -137,7 +137,7 @@ export const CELEBRATION_CATEGORIES = [
     subtitle: "احتفالات كبرى تتسع للمئات دون التنازل عن حميمية التفاصيل وأناقة الإخراج.",
     description: "نُحوّل الصالات والمعارض والقلاع إلى معالم بصرية مؤقتة، حيث تتضافر الهندسة الضوئية مع التنسيقات الزهرية الضخمة لتقديم تجربة تحبس الأنفاس.",
     features: ["تصاميم سقفية معلقة معقدة", "منصات عرض عصرية ومبتكرة", "إدارة وتنسيق كبار الشخصيات", "تغطيات خصوصية وتأمين متكامل"],
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=1200&auto=format&fit=crop"
   },
   {
     id: "destination-weddings",
@@ -146,7 +146,7 @@ export const CELEBRATION_CATEGORIES = [
     subtitle: "رحلات احتفالية ممتدة لأيام بين العلا، البحر الأحمر، والوجهات العالمية.",
     description: "صناعة تجربة سفر متكاملة للضيوف تشمل الاستقبال الخاص، والإقامة في منتجعات فاخرة، وحفلات العشاء التمهيدية تحت النجوم وصولاً إلى ليلة الزفاف الرئيسية.",
     features: ["لوجستيات الطيران والإقامة", "برامج ضيافة ممتدة لـ ٣ أيام", "تصاميم متناغمة مع بيئة الوجهة", "فريق رحلات مخصص للضيوف"],
-    image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=1200&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1541971875076-8f970d573be6?q=80&w=1200&auto=format&fit=crop"
   },
   {
     id: "intimate-gatherings",
@@ -180,11 +180,11 @@ export const PORTFOLIO_PROJECTS = [
     guests: "٢٥٠ ضيفاً",
     season: "الشتاء",
     style: "صحراوي نحتي معاصر",
-    coverImage: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=1600&auto=format&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1541971875076-8f970d573be6?q=80&w=1600&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1541971875076-8f970d573be6?q=80&w=1600&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=1600&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=1600&auto=format&fit=crop"
     ],
     conceptStory: "بين التكوينات الصخرية المذهلة في العُلا، أقمنا مسرحاً احتفالياً من ألياف الرمل والزجاج المعتم، حيث امتدت الطاولات الطويلة المنحوتة كأنها امتداد للطبيعة. عُزفت مقطوعات الأوركسترا الشرقي المحدث تحت سماء صافية مرصعة بالنجوم، ودُمجت إضاءة الليزر الخافتة مع أكثر من ٣٠٠٠ شمعة طبيعية.",
@@ -207,11 +207,11 @@ export const PORTFOLIO_PROJECTS = [
     guests: "٥٠٠ ضيفاً",
     season: "الربيع",
     style: "أناقة البحر الأبيض والموج",
-    coverImage: "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?q=80&w=1600&auto=format&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=1600&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1478146896981-b80fe463b330?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=1600&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1478146896981-b80fe463b330?q=80&w=1600&auto=format&fit=crop"
     ],
     conceptStory: "بُنيت قاعة شفافة بالكامل على حافة مياه البحر الأحمر، ليتحول الأفق المائي عند غروب الشمس إلى الستار الخلفي للمناسبة. استُخدمت ملايين كريستالات السواروفسكي العاكسة للضوء لتمثيل انكسار الموج، مع تنسيق نادِر لزهور الأوركيد البيضاء والفاوانيا.",
     designNotes: [
@@ -233,11 +233,11 @@ export const PORTFOLIO_PROJECTS = [
     guests: "٧٠٠ ضيفاً",
     season: "الخريف",
     style: "معماري فاخر وشامخ",
-    coverImage: "https://images.unsplash.com/photo-1545232979-fbfd42e000b9?q=80&w=1600&auto=format&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=1600&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1545232979-fbfd42e000b9?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1522413452208-996ff3f3e740?q=80&w=1600&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?q=80&w=1600&auto=format&fit=crop"
     ],
     conceptStory: "مشروع يعيد تعريف الزفاف الملكي في الرياض من خلال ممر زفاف منحني بطول ٤٠ متراً من الرخام الأسود المصقول، تحيط به غابة معلقة من النباتات الصحراوية والزهور الحمراء القاتمة. خلق التضاد بين الأسود الحلك واللون الباذنجاني الدافئ حالة من الفخامة البصرية غير المسبوقة.",
     designNotes: [
@@ -282,7 +282,7 @@ export const DESTINATIONS = [
     region: "المنطقة الشمالية الغربية",
     description: "مسرح طبيعي من السحر والغموض والصخور المنحوتة عبر آلاف السنين. المكان الأمثل للأعراس الأسطورية التي تبحث عن أبعاد استثنائية.",
     highlights: ["صحراء الحِجر ومغارات عويرض", "طقس شتوي ساحر ومثالي", "منتجعات فاخرة مثل أمانربا وبانيان تري"],
-    image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1541971875076-8f970d573be6?q=80&w=1200&auto=format&fit=crop"
   },
   {
     id: "diriyah",
@@ -290,7 +290,7 @@ export const DESTINATIONS = [
     region: "منطقة الرياض",
     description: "مهد العز والأصالة المعمارية النجدية. تمتزج جدران الطين الدافئة مع أحدث تقنيات التصميم السينمائي لخلق مناسبات ذات بعد تاريخي مجيد.",
     highlights: ["حي الطريف المسجل في اليونسكو", "بساتين وادي حنيفة الخضراء", "قربها من أرقى أحياء العاصمة"],
-    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop"
   },
   {
     id: "red-sea",
@@ -298,7 +298,7 @@ export const DESTINATIONS = [
     region: "الساحل الغربي",
     description: "جزر عذراء ومياه فيروزية لا مثيل لها. تجارب أعراس حصرية في جزر خاصة لضيوف يبحثون عن أقصى درجات الفخامة والعزلة الفارهة.",
     highlights: ["جزر خاصة ومطارات خاصة", "منتجعات سيكس سينسز وريد سي", "حفلات شاطئية بنمط هوت كوتور"],
-    image: "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=1200&auto=format&fit=crop"
   },
   {
     id: "riyadh",
@@ -306,7 +306,7 @@ export const DESTINATIONS = [
     region: "الرياض",
     description: "قلاع وقصور ضخمة، صالات كبرى، وهندسة مكانية تتسع للخيال الأكثر جرأة في عالم الأعراس والمناسبات الملكية.",
     highlights: ["فنادق وقصور عالمية المستوى", "بنية تحتية لوجستية متكاملة", "سهولة وصول الضيوف الدوليين"],
-    image: "https://images.unsplash.com/photo-1545232979-fbfd42e000b9?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=1200&auto=format&fit=crop"
   }
 ];
 

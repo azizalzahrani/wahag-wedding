@@ -45,7 +45,7 @@ export default function DestinationsSection({ openInquiry }) {
                 <img
                   src={dest.image}
                   alt={dest.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-95"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0B080C] via-transparent to-transparent opacity-80" />
                 <span className="absolute bottom-3 right-3 px-2.5 py-1 rounded-full bg-[#0B080C]/80 text-[#D6C2A5] font-body text-xs">
