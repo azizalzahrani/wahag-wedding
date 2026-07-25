@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" fill="none">
+  <defs>
+    <linearGradient id="logoGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5E5C9" />
+      <stop offset="50%" stop-color="#D6C2A5" />
+      <stop offset="100%" stop-color="#C7B08B" />
+    </linearGradient>
+    <linearGradient id="amberAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F39C12" />
+      <stop offset="100%" stop-color="#E67E22" />
+    </linearGradient>
+  </defs>
+
+  <!-- Emblem Mark -->
+  <g transform="translate(10, 5)">
+    <circle cx="25" cy="25" r="23" fill="#1A0B1A" stroke="url(#logoGold)" stroke-width="1.5" />
+    <rect x="12.5" y="12.5" width="25" height="25" rx="2" transform="rotate(0 25 25)" stroke="url(#logoGold)" stroke-width="1" fill="none" opacity="0.6" />
+    <rect x="12.5" y="12.5" width="25" height="25" rx="2" transform="rotate(45 25 25)" stroke="url(#logoGold)" stroke-width="1" fill="none" opacity="0.6" />
+    <path d="M25 9 L26.5 22.5 L40 25 L26.5 27.5 L25 41 L23.5 27.5 L10 25 L23.5 22.5 Z" fill="url(#logoGold)" />
+    <polygon points="25,19 29,25 25,31 21,25" fill="url(#amberAccent)" />
+    <circle cx="25" cy="25" r="1.5" fill="#FFFFFF" />
+  </g>
+
+  <!-- Typography -->
+  <text x="68" y="32" font-family="'Alexandria', 'Cairo', 'Tajawal', sans-serif" font-size="24" font-weight="900" fill="#FAF7F2" letter-spacing="2">وَهَج</text>
+  <text x="68" y="47" font-family="'Alexandria', 'Cairo', sans-serif" font-size="9" font-weight="400" fill="#D6C2A5" letter-spacing="1">WAHAJ • ESTUDIO DE LUJO</text>
+</svg>

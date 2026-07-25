@@ -47,14 +47,9 @@ export default function Navbar({ activePage, setActivePage, openInquiry }) {
             onClick={() => handleNavClick('home')}
             className="flex items-center gap-3 group text-right focus:outline-none"
           >
-            {/* Abstract Orbit Ribbon Icon */}
-            <div className="relative w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-br from-[#2A132B] to-[#1A0B1A] border border-[#D6C2A5]/30 group-hover:border-[#D6C2A5] transition-all duration-300 shadow-lg">
-              <svg className="w-6 h-6 text-[#D6C2A5] transform group-hover:rotate-180 transition-transform duration-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" strokeOpacity="0.2" />
-                <path d="M12 4C8 4 5 8 5 12s3 8 7 8" strokeDasharray="2 2" />
-                <path d="M12 6c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6z" stroke="currentColor" strokeWidth="1" />
-                <circle cx="12" cy="12" r="2.5" fill="#E67E22" />
-              </svg>
+            {/* WAHAJ Gold Emblem Logo */}
+            <div className="relative w-10 h-10 flex items-center justify-center rounded-full bg-[#1A0B1A] border border-[#D6C2A5]/50 group-hover:border-[#D6C2A5] group-hover:shadow-[0_0_15px_rgba(214,194,165,0.4)] transition-all duration-500 overflow-hidden shrink-0">
+              <img src="/favicon.svg" alt="وَهَج Logo" className="w-8 h-8 group-hover:scale-110 transition-transform duration-500" />
             </div>
 
             <div className="flex flex-col">

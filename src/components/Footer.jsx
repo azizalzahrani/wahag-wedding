@@ -60,8 +60,8 @@ export default function Footer({ setActivePage, openInquiry, openLegal }) {
           {/* Brand Col */}
           <div className="lg:col-span-2 space-y-6 text-right">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full bg-[#2A132B] border border-[#D6C2A5]/40 flex items-center justify-center">
-                <span className="font-display text-2xl font-black text-[#D6C2A5]">و</span>
+              <div className="w-12 h-12 rounded-full bg-[#1A0B1A] border border-[#D6C2A5]/50 flex items-center justify-center overflow-hidden shadow-lg shrink-0">
+                <img src="/favicon.svg" alt="وَهَج Logo" className="w-10 h-10" />
               </div>
               <div>
                 <h3 className="font-display text-3xl font-black text-[#FAF7F2]">{STUDIO_INFO.name}</h3>
