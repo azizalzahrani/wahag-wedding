@@ -114,11 +114,11 @@ export default function Footer({ setActivePage, openInquiry, openLegal }) {
             <ul className="space-y-3 font-body text-xs text-[#FAF7F2]/70">
               <li className="flex items-center gap-2 justify-start">
                 <Phone size={14} className="text-[#E67E22]" />
-                <span dir="ltr">+966 11 000 0000</span>
+                <span dir="ltr">+966 11 XXX XXXX</span>
               </li>
               <li className="flex items-center gap-2 justify-start">
                 <Mail size={14} className="text-[#E67E22]" />
-                <span>concierge@wahajstudio.sa</span>
+                <span>concierge@example.com</span>
               </li>
               <li className="pt-2">
                 <a

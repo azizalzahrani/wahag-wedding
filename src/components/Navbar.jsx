@@ -160,7 +160,7 @@ export default function Navbar({ activePage, setActivePage, openInquiry }) {
 
             <div className="flex items-center justify-between text-xs text-[#FAF7F2]/50 font-body">
               <span>الرياض • جدة • العلا</span>
-              <span>concierge@wahajstudio.sa</span>
+              <span>concierge@example.com</span>
             </div>
           </div>
         </div>
