@@ -14,7 +14,7 @@ export const STUDIO_INFO = {
       address: "طريق الدائري الغربي، فيلا 42",
       phone: "+966 11 XXX XXXX",
       whatsapp: "966500000000",
-      email: "concierge@example.com"
+      email: "concierge@redacted.sa"
     },
     {
       city: "جدة",
@@ -22,7 +22,7 @@ export const STUDIO_INFO = {
       address: "برج الكورنيش، الأبرج السكنية 12",
       phone: "+966 12 XXX XXXX",
       whatsapp: "966500000000",
-      email: "jeddah@example.com"
+      email: "jeddah@redacted.sa"
     }
   ]
 };
