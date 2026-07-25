@@ -194,15 +194,7 @@ export default function Footer({ setActivePage, openInquiry, openLegal }) {
                 className="font-bold text-[#D6C2A5] hover:underline"
               >
                 AZION Labs
-              </a>{' '}
-              (<a
-                href="https://www.azion-labs.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline text-[#D6C2A5]"
-              >
-                www.azion-labs.com
-              </a>)
+              </a>
             </span>
             <button
               onClick={scrollToTop}
