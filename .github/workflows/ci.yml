@@ -1,0 +1,44 @@
+# AZION OS · does this build.
+#
+# Added on 16 August 2026, when the dashboard showed that twenty one of thirty
+# repositories had no CI at all. Nothing here was tested before it shipped, and
+# a green dashboard that only means "nobody is watching" is worse than a red one.
+#
+# Every step uses --if-present, so this file does not assume scripts that do not
+# exist. If a repository later gains a typecheck or a test script, it starts
+# being enforced here without anyone editing this file.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+      - name: Install
+        working-directory: .
+        run: npm ci || npm install
+      - name: Typecheck
+        working-directory: .
+        run: npm run typecheck --if-present
+      - name: Lint
+        working-directory: .
+        run: npm run lint --if-present
+      - name: Build
+        working-directory: .
+        run: npm run build --if-present
